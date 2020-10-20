@@ -1,0 +1,5 @@
+require('dotenv').config()
+const toot = require('lib/post.js')
+const makeModel = require('lib/makeModel.js')
+setInterval(toot.toot(), process.env.TOOT_INTERVAL ? process.env.TOOT_INTERVAL : 1200)
+setInterval(makeModel.makeModel(), 3600)
