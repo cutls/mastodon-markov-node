@@ -4,6 +4,11 @@ https://github.com/naaaaaaaaaaaf/mastodon-markov-bot
 
 .env.sampleを.envにして`yarn build`、`yarn start`でOK。
 
+### いるもの
+
+* `mecab`が通る環境
+* Node.js (v12で確認)とyarn
+
 ### .env
 
 ```
